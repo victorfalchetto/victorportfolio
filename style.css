@@ -1,0 +1,336 @@
+/*Reset CSS !!! */
+html, body {
+	margin: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*image page */
+.img_001 {
+    grid-column-start: 1;
+}
+
+/*Debut page */
+.debut {
+    grid-column-start: 1;
+
+}
+
+/*Debut page 00 */
+.debut00 {
+    grid-column-start: 4;
+    padding-left: 600px;
+    padding-top: 35px;
+}
+
+/*Debut page 01 */
+.debut01 {
+    grid-column-start: 5;
+    padding-top: 35px;
+
+}
+
+/*Debut page 01 FX */
+.debut01 :hover .submenu {
+    display: block;
+
+}
+
+/*Soulignement */
+.soulignement {
+    text-decoration: underline;
+}
+
+/*Debut page 02 */
+.debut02 {
+    grid-column-start: 6;
+    padding-top: 35px;
+}
+
+/*Tous les parragraphes a */
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/*Debut page Intérieur */
+.conteneur {
+    display: grid;
+    padding-top: 50px ;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding:10px;
+
+}
+
+/*Grand titre accueil */
+h1 {
+    font-family : 'Caveat', cursive;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(37, 37, 37);
+    border: 3px solid rgb(255, 255, 255);
+}  
+
+/*Moyen titre accueil */
+h3{
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+/*Petit Moyen titre accueil */
+h4 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*Contenue Premier acceuil */
+.div987  {
+    display: flex;
+    flex-direction: row;
+    background-image: url('images/nuku_hiva.jpg');
+    /*espacement vertical Intérieure de l'image*/
+    padding: 25px;
+    /*espacement extérieure de l'image*/
+    margin: 0px;
+    color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 5px 5px 5px black;
+    justify-content: space-around;
+}
+
+/*Image 02 Photo Victor */
+.img_02 {
+    margin: auto;
+    width: 150px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+/*Image de paragraphes */
+
+.img_03 {
+    padding: auto;
+    background-position: center;
+    font-weight: 110px;
+    font-size: 6em;
+    max-width: 900px;
+    margin: auto;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*Sous Titre accueil */
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-position: center;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.658);
+}
+
+/*Image 01 tous */
+.img_01 {
+    font-size: 6em;
+    font-weight: 110px;
+    padding: auto;
+    background-position: center;
+    text-align: auto;
+    image-resolution: auto;
+    background-size: cover;
+    max-width: 900px;
+    margin: auto;
+    height: auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 75%);
+}
+
+.img_01:hover {
+    opacity: 80%;
+}
+
+/*Image nkh */
+.img_nkh {
+    font-size: 6em;
+    font-weight: 100px;
+    padding: auto;
+    background-position: center;
+    text-align: center;
+    image-resolution: auto;
+    background-size: cover;
+    max-width: 900px;
+    max-height: auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 75%);
+}
+
+/*Arrière plan */
+body {
+    background-image: url('images/nkh_03.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Contenu des paragraphe*/
+.div_02 {
+    display: flexbox;
+    align-items:none;
+    flex-direction: column;
+}
+
+/*Tous les Paragraphes */
+p {
+    color: rgb(0, 0, 0);
+    padding: 25px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgba(202, 202, 202, 50%);
+    font-family: serif;
+    text-align: center;
+    width: 850px;
+    height: auto;
+    margin: auto;
+}
+
+/*Lien 01 du parragraphe  */
+.lien01 {
+    text-decoration: underline;
+}
+
+/*Lien 01 du parragraphe FX */
+.lien01:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.603);
+}
+
+/*Liste retire */
+ol, ul {
+	list-style: none;
+}
+
+/*Contenue du site */
+main {
+    margin: auto;
+    text-align: center;
+    height: auto;
+    margin: auto;
+}
+
+/*FX Hyperlien Acceuil + Autres */
+.class01:hover {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.509);
+}
+
+/*MENU HIGHTECK HAUT DE PAGE Acceuil + Autres */
+header a {
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    color: white;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.475);
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid #eee;
+    background-color: rgba(0, 0, 0, 0.427);
+    margin-top: 0px;
+    align-content: stretch;
+
+}
+
+header li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+/*FX Menu Acceuil formation */
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+
+    font-size: 16px;
+    line-height: 22px;
+}
+
+header li a {
+    display: block;
+    padding: 20px;
+}
+
+header li a:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-shadow: none;
+}
+
+
+header li:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.402);
+}
+
+/*MENU HIGHTECK BAS DE PAGE + Autres */
+
+footer a{
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    color: white;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.475);
+
+}
+
+footer {
+    border-bottom: 5px solid #eee;
+    border-top: 5px solid #eee;
+}
+
+footer li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+footer li a {
+    display: block;
+    padding: 20px;
+}
+
+footer li a:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-shadow: none;
+}
+
+footer li:hover .submenu2 {
+    display: block;
+    top:-200px;
+    max-height: 100em;
+    
+}
+
+.submenu2 {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.402);
+}
+
+.a2 {
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    color: white;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.475);
+}
